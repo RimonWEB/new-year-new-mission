@@ -50,6 +50,7 @@
 
 .third{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(image/Vectorrr.png);
+    
     margin-left: 60px;
     width: 90%;
     height: 70vh;
@@ -58,6 +59,15 @@
     border-radius: 10px;
     color: white;
     
+}
+.images{
+    float: right;
+    margin-right: 190px;
+    margin-top: 90px;
+    width: 180px;
+    opacity: 85%;
+    
+
 }
 .thirdd{
     width: 700px;
@@ -96,11 +106,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+
 }
 .date p{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+
     
 }
 span{
@@ -116,4 +129,46 @@ span{
     border: none;
     cursor: pointer;
     margin-left: 90px;
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 70px;
+}
+.select-1 h2{
+    font-size: 35px;
+    font-weight: bold;    
+}
+.select-1 h4{
+    color: rgb(248, 6, 6);
+}
+.select-1 p{
+    opacity: 90%;
+    font-size: 13px;
+}
+
+.select-image{
+    border: 6px solid  rgb(248, 6, 6);
+    padding: 14px;
+    border-radius: 50%;
+    
+}
+.select-image img{
+    width: 250px;
+    height: 250px;
+}
+.new h2{
+    color: rgb(248, 6, 6);
+    font-size: 40px;
+}
+.peragraph1{
+    opacity: 90%;
+    font-size: 13px;
+    padding: 8px 0;
+}
+.new img{
+    width: 100px;
+    height: 100px;
 }
