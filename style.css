@@ -105,7 +105,7 @@
 .fourth{
     width: 90%;
     height: 60vh;
-    background-color: rgba(223, 140, 171, 0.438);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border: 1px solid black;
     border: none;
     margin-left: 60px;
@@ -116,6 +116,9 @@
     justify-content: center;
     
 
+}
+.fourth p{
+    letter-spacing: 0px;
 }
 .date p{
     text-align: center;
@@ -259,7 +262,7 @@ form .btn{
 }
 footer{
     width: 90%;
-    height: 450px;
+    height: 470px;
     background-color: black;
     color: white;
     margin-top: 50px;
