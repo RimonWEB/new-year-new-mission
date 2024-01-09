@@ -271,7 +271,11 @@ footer{
    justify-content: space-between;
    margin-right: 200px;
    padding: 40px;
+   margin-left: 80px;
 }
+/* .foot1 p{
+    margin-right: 40px;
+} */
 .horizentalline{
     width: 70%;
     height: 3px;
@@ -287,6 +291,7 @@ footer{
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    
 }
 
 .icon .icon1{
@@ -313,6 +318,9 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 0px 120px;
+}
+.last1 p{
+    margin-right: 100px;
 }
 
 
