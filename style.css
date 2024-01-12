@@ -58,7 +58,6 @@
 
 .third{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(image/Vectorrr.png);
-    
     margin-left: 60px;
     width: 90%;
     height: 70vh;
@@ -325,6 +324,146 @@ footer{
 .last1 p{
     margin-right: 100px;
 }
+
+
+
+/* Mobile media quary */
+@media screen and (max-width:576px){
+    .content{
+        width: 70%;
+        height: 50vh;
+        margin: auto;
+       } 
+       .main h4{
+        padding-top: 110px;
+        font-size: 15px;
+       }
+       .main h1{
+        font-size: 27px;
+       }
+       .container{
+        padding-top: 10px;
+       }
+       .container p{
+        margin-top: -10px;
+        font-size: 13px;
+       }
+       .container img{
+        width: 220px;
+        height: 220px;
+       }
+       .container h1{
+        font-size: 30px;
+       }
+    
+        .select{
+            grid-template-columns: 1fr;
+            flex-direction: column;
+        }
+        .main h4{
+            padding-top: 110px;
+            font-size: 15px;
+           }
+           .main h1{
+            font-size: 27px;
+           }
+           .container{
+            padding-top: 10px;
+           }
+           .container p{
+            margin-top: -10px;
+            font-size: 13px;
+           }
+           .container img{
+            width: 220px;
+            height: 220px;
+           }
+           .container h1{
+            font-size: 30px;
+           }
+        
+            .select{
+                grid-template-columns: 1fr;
+                flex-direction: column;
+            }
+            .third{
+                width: 70%;
+                height: 75vh;
+                background-position: inherit;
+                background-size: cover;
+                border-radius: 10px;
+                color: white;
+                
+            }
+            .images{
+                width: 90px;
+                margin-right: 80px;
+                margin-bottom: 10px;
+                margin-top: 70px;
+            }
+            .thirdd{
+                width: 400px;
+                padding: 30px;
+                padding-top: 50px;
+                margin-bottom: 20px;
+                margin-right: 40px;
+                
+            }
+            .thirdd h1{
+                margin-top: 100px;
+                font-size: 27px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+            .thirdd p{
+                width: 220px;
+                font-size: 15px;
+                margin-top: 5px;
+            }
+            .fourth{
+                width: 70%;
+                height: 60vh;
+            }
+            .date p{
+                width: 260px;
+            }
+            .date button{
+                margin-left: 75px;
+            }
+            .shopping{
+                height: 580px;
+            }
+            .shop img{
+                width: 32%;
+                height: 160px;
+                padding: 2px;
+            }
+            .message{
+                width: 70%;
+                height: 70vh;
+                margin-top: 40px;
+            }
+            .messages{
+                width: 240px;
+            }
+            input{
+                padding: 12px;
+                width: 130px; 
+            }
+            form .btn{
+                padding: 6px; 
+            }
+         
+
+}
+          
+        
+    
+   
+
+   
+        
+  
 
 
 
